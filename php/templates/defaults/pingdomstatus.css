@@ -1,0 +1,220 @@
+/*
+	Pingdom Status Stylesheet
+	
+	This Stylesheet is just an example and
+	you can use it, change anything you like to suit your design,
+	or you could even remove it (or parts of it) to use your theme's specific styles.	
+*/
+
+
+/*
+	=========== RESET ===========
+*/
+.clear {
+	clear: both;
+}
+
+div#PingdomStatus,
+div#PingdomStatus table,
+div#PingdomStatus tr,
+div#PingdomStatus th,
+div#PingdomStatus td,
+div#PingdomStatus h1,
+div#PingdomStatus h2,
+div#PingdomStatus h3,
+div#PingdomStatus h4,
+div#PingdomStatus dl,
+div#PingdomStatus dt,
+div#PingdomStatus dd,
+div#PingdomStatus p
+{
+	
+	font-family: Arial, Verdana;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%
+	vertical-align: baseline;
+	background: transparent;
+	text-transform: none;
+	background-color: #fff;
+	text-align: left;
+}
+
+div#PingdomStatus h1,
+div#PingdomStatus h2,
+div#PingdomStatus h3,
+div#PingdomStatus h4
+{
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+div#PingdomStatus table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+	=========== EDIT BELOW AS YOU PLEASE ===========
+*/
+
+div#PingdomStatus{
+	/* 
+		This is the wrapper for this plugin
+		you can use it in your stylesheet to target anything PingdomStatus related
+		for example: div#PingdomStatus table{}  will target all tables used in PingdomStatus
+		and at the same time override the less specific styles assigned to tables by your theme.
+	*/
+	padding: 15px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div#PingdomStatus h3{
+	font-size: 24px;
+	padding: 8px;
+	margin: 0px 0 5px 0;
+	color: #666;
+	background-color: #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 0 1px 0px #eee;
+}
+div#PingdomStatus h4{
+	font-size: 14px;
+	padding: 6px;
+	margin: 0px 0 5px 0;
+	color: #666;
+	background-color: #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 0 1px 0px #eee;
+}
+div#PingdomStatus a{
+	color: #666;
+	text-decoration: underline;
+	font-size: 100%
+}
+
+/* =========== TABLE =========== */
+/*
+	Used for both sensors list table
+	and Outages table.
+*/
+
+div#PingdomStatus table{
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+}
+div#PingdomStatus table.status tr th, div#PingdomStatus table.status tr td{
+	font-size: 12px;
+	color: #666;
+	padding: 5px;
+	line-height: 1.5em;
+	border: 0;
+}
+div#PingdomStatus table.status tr th{
+	font-family: Arial, Verdana;
+	font-weight: bold;
+}
+div#PingdomStatus table.status tr td{
+	font-family: Arial, Verdana;
+	border-top: 1px solid #e7e7e7;
+}
+
+/* =========== NAVIGATION ON SENSOR PAGE =========== */
+
+div#PingdomStatus div#sensor_nav{
+	margin: 0 0 10px 0;
+}
+div#PingdomStatus div#sensor_nav a{
+}
+
+div#PingdomStatus div#sensor_nav form#operation_status_month_selector{
+	float: right;
+	color: #666;
+}
+
+/* =========== SENSOR INFO =========== */
+
+div#PingdomStatus div#statusInfo{
+	margin: 0 0 10px 0;
+}
+
+
+div#PingdomStatus div#statusInfo select#activemonth{
+	margin: 0 0 10px 0;
+}
+
+div#PingdomStatus div#statusInfo div.statusInfo_details{
+	background-color: #eee;
+	color: #666;
+	float: left;
+	width: 32%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-shadow: 0 1px 0px #eee;
+}
+div#PingdomStatus div#statusInfo div.details_mid{
+	margin: 0 2% 0 2%;
+}
+div#PingdomStatus div#statusInfo div.statusInfo_details dl{
+	font-size: 11px;
+	background-color: #eee;
+	font-size: 100%
+	line-height: 1.2em;
+	text-shadow: 0 1px 0px #eee;
+}
+div#PingdomStatus div#statusInfo div.statusInfo_details dt
+{
+	margin: 5px 10px 2px 10px;
+	background-color: #eee;
+}
+div#PingdomStatus div#statusInfo div.statusInfo_details dd
+{
+	margin: 0px 10px 5px 10px;
+	background-color: #eee;
+}
+div#PingdomStatus div#statusInfo div.statusInfo_details dd{
+	font-size: 24px;
+}
+
+/* =========== CHARTS =========== */
+
+div#PingdomStatus div#uptimeChart, 
+div#PingdomStatus div#responseChart
+{
+	margin: 0 0 40px 0;
+}
+
+div.uptimeChartHover, 
+div.responseChartHover
+{
+	position: absolute;
+	display: none;
+	font-family: Arial; Verdana;
+	background-color: #4DDC4D;
+	color: #fff;
+	font-size: 12px;
+	padding: 6px;
+	opacity: 0.8;
+	margin: 0;
+}
+div.uptimeChartHoverDown{
+	background-color: #DC4D4D;
+}
+
+/* =========== FOOTER =========== */
+div#PingdomStatus_footer{
+	margin: 20px 0 0 0;
+}
+div#PingdomStatus_footer img{
+	float: right;
+	vertical-align: middle;
+}

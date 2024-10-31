@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pingdom Status 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/PingdomStatus\n"
+"POT-Creation-Date: 2009-05-07 11:11+0200\n"
+"PO-Revision-Date: 2009-05-07 11:54+0200\n"
+"Last-Translator: Jimmy Bergman <jimmy@pingdom.com>\n"
+"Language-Team: <info@pingdom.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: php/templates/pingdom_responsetime_chart.php:5
+msgid "Delay (ms) for the selected month"
+msgstr "Fördröjning (ms) under vald månad"
+
+#: php/templates/pingdom_responsetime_chart.php:10
+#: php/templates/pingdom_uptime_chart.php:11
+msgid "You have to update Flash player"
+msgstr "Du behöver uppdatera Flash player"
+
+#: php/templates/pingdomstatus_current.php:8
+#: php/templates/pingdomstatus_sensor.php:16
+msgid "Operation status"
+msgstr "Driftstatus"
+
+#: php/templates/pingdomstatus_current.php:13
+#: php/templates/pingdomstatus_current.php:14
+msgid "Service"
+msgstr "Tjänst"
+
+#: php/templates/pingdomstatus_current.php:15
+msgid "Status"
+msgstr "Status"
+
+#: php/templates/pingdom_status_history.php:7
+msgid "Downtime during the selected month"
+msgstr "Nedtid under vald månad"
+
+#: php/templates/pingdom_status_history.php:12
+msgid "From"
+msgstr "Från"
+
+#: php/templates/pingdom_status_history.php:13
+msgid "To"
+msgstr "Till"
+
+#: php/templates/pingdom_status_history.php:14
+#: php/templates/pingdomstatus_sensor.php:55
+msgid "Downtime"
+msgstr "Nedtid"
+
+#: php/templates/pingdomstatus_sensor.php:18
+msgid "Go back to all services"
+msgstr "Tillbaka till alla tjänster"
+
+#: php/templates/pingdomstatus_sensor.php:30
+msgid "Active month"
+msgstr "Aktiv månad"
+
+#: php/templates/pingdomstatus_sensor.php:52
+#: php/templates/pingdomstatus_sensor.php:78
+msgid "Availability"
+msgstr "Tillgänglighet"
+
+#: php/templates/pingdomstatus_sensor.php:57
+msgid "Average response time"
+msgstr "Genomsnittlig fördröjning"
+
+#: php/templates/pingdomstatus_sensor.php:79
+msgid "Response time"
+msgstr "Fördröjning"
+
+#: php/templates/pingdom_uptime_chart.php:6
+msgid "Availability (%) during the selected month"
+msgstr "Tillgänglighet (%) under vald månad"
+
+#: PingdomStatus.php:316 PingdomStatus.php:317
+msgid "Pingdom status"
+msgstr "Driftinformation från Pingdom"
+
+#: PingdomStatus.php:324 PingdomStatus.php:370
+msgid "PingdomStatus User"
+msgstr "PingdomStatus-användare"
+
+#: PingdomStatus.php:327
+#, php-format
+msgid "Pingdom status on %s"
+msgstr "Driftinformation från pingdom under %s"
+
+#: PingdomStatus.php:373
+#, php-format
+msgid "Status for domain %s on %s"
+msgstr "Driftinformation från pingdom för domänen %s under %s"
+
+#. Plugin Name of an extension
+msgid "Pingdom Status"
+msgstr "Pingdom Status"
+
+#. #-#-#-#-#  PingdomStatus.pot (Pingdom Status 1.0)  #-#-#-#-#
+#. Plugin URI of an extension
+#. #-#-#-#-#  PingdomStatus.pot (Pingdom Status 1.0)  #-#-#-#-#
+#. Author URI of an extension
+msgid "http://www.pingdom.com"
+msgstr "http://www.pingdom.com"
+
+#. Description of an extension
+msgid "Pingdom Status plugin"
+msgstr "Visar driftinformation från Pingdom"
+
+#. Author of an extension
+msgid "Pingdom Geeks"
+msgstr "Geeksen på Pingdom"
